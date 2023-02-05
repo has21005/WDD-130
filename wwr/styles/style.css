@@ -1,11 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Noto+Serif&display=swap');
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.home-title, .home-grid h2, .msg h2 {
+    font-family: "Gloria Hallelujah";
+    font-size: 2em;
+}
+
+p, h4 {
+    font-family: "Noto Serif", Helvetica, sans-serif;
+    font-size: .8em;
+}
+
+.book, .join {
+    font-family: "Noto Serif", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
 #content{
     max-width: 1600pt;
     margin: 0 auto;
 }
+
+#logo_link1 {
+    padding-top: 5px;
+}
+
 nav a{
     text-align: center;
     color:#fada9ee4;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -25,9 +63,7 @@ main section{
 #background {
     height: 725px;
 }
-body{
-    background-color: #EBEBEB;
-}
+
 header{
     background-color: #08294e;
 }
@@ -39,6 +75,7 @@ nav a:hover{
     background-color: #08294e;
     color:#EBEBEB;
     text-decoration: none;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
     background-color: #f8bd4f;
@@ -49,12 +86,16 @@ nav a:hover{
 .msg{
     background-color: #08294e;
     color:#EBEBEB;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color: #08294e;
     color:#fada9ee4;
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -68,6 +109,7 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -75,10 +117,32 @@ footer a:hover{
 }
 footer p {
     font-size: 1.2em;
+    padding: 25px 50px;
 }
 footer p a:hover {
     background-color: #EBEBEB;
     color:#f8bd4f;
     text-decoration: underline;
 }    
-            
+
+.msg p{
+    padding-bottom: 15px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.home-title {margin-top: 10px;}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
