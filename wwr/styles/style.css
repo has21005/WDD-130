@@ -13,7 +13,7 @@ h2 {
 }
 
 .home-title, .home-grid h2, .msg h2 {
-    font-family: "Gloria Hallelujah";
+    font-family: "Gloria Hallelujah", "Brush Script MT", sans-serif;
     font-size: 2em;
 }
 
@@ -70,6 +70,7 @@ header{
 nav a:hover{
     background-color: #EBEBEB;
     color:#f8bd4f;
+    height: 22px;
 }
 .book, .join{
     background-color: #08294e;
@@ -105,6 +106,7 @@ footer a{
 }
 footer a:hover{
     background-color: #f8bd4f;
+    width: 80px;
 }
 
 .icon {
@@ -144,3 +146,7 @@ footer .social img {
 }
 
 main section img {box-sizing: border-box;}
+
+.logo {
+    width: 80px;
+}
