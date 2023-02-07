@@ -67,23 +67,28 @@ main section{
 header{
     background-color: #08294e;
 }
+
 nav a:hover{
     background-color: #EBEBEB;
     color:#f8bd4f;
     height: 22px;
 }
+
 .book, .join{
     background-color: #08294e;
     color:#EBEBEB;
     text-decoration: none;
     margin-top: 50px;
 }
+
 .book:hover, .join:hover{
     background-color: #f8bd4f;
 }
+
 #background{
     background-color: #fada9ee4;
 }
+
 .msg{
     background-color: #08294e;
     color:#EBEBEB;
@@ -104,6 +109,7 @@ footer a{
     color:#fada9ee4;
     text-decoration: none;
 }
+
 footer a:hover{
     background-color: #f8bd4f;
     width: 80px;
@@ -117,10 +123,12 @@ footer a:hover{
 #hero-img{
     width: 100%
 }
+
 footer p {
     font-size: 1.2em;
     padding: 25px 50px;
 }
+
 footer p a:hover {
     background-color: #EBEBEB;
     color:#f8bd4f;
