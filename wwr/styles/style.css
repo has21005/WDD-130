@@ -44,6 +44,7 @@ nav a{
     color:#fada9ee4;
     text-decoration: none;
     padding: 35px;
+    height: 22px;
 }
 #hero-msg h1{
     text-align: center;
@@ -156,8 +157,4 @@ main section img {box-sizing: border-box;}
 
 .logo {
     width: 80px;
-}
-
-nav a:hover{
-    height: 22px;
 }
