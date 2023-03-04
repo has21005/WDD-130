@@ -311,3 +311,54 @@ footer {
         margin-top: 25px;
     }
 }
+
+.headline{
+    text-align: center;
+    color: #08294e;
+}
+
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;   
+}
+
+#river1{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row:1/2;
+}
+
+.river1-img{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2
+}
+
+#river2{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3
+}
+
+.river2-img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#river3{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.river3-img{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+h2{
+    color: #f8bd4f;
+}
