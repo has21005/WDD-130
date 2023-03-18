@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Gloria+Hallelujah&family=Noto+Serif&family=Shantell+Sans:wght@300&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Noto Serif",Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgb(54, 97, 177);
+}
+
+.logo {
+    width: 110px;
+    height: 100%;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+}
+
+nav a{
+    color: rgb(42, 182, 200);
+}
+
+.home-grid h1, h4{
+    text-align: center;
+    font-family: "Shantell Sans", "IM Fell French Canon SC";;
+}
+
+
+.home1-img {
+    width: 100%;
+}
+
+.home2-img {
+    width: 100%
+}
+
+.home-msg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr, 10);
+    margin-top: -7px;
+}
+
+.home1-img {
+    grid-column: 1/2;
+    grid-row: 1/11;
+    z-index: -1;
+}
+
+.home-msg h1 {
+    grid-column: 1/2;
+    grid-row: 3/5;
+    color: #FFFFFF;
+}
+
+.home-msg2 {
+    display: grid;
+    grid-template-columns: repeat(1fr, 10);
+    grid-template-rows: repeat(1fr, 10);
+    margin: 30px;
+}
+
+.msg {
+    background-color: #0affeb;
+    grid-column: 1/6;
+    grid-row: 2/6;
+}
+
+.home2-img {
+    grid-column: 4/11;
+    grid-row: 4/11;
+    z-index: -1;
+}
+
+.msg h4{
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color:#0affeb;
+}
+
+
+
+
+
+main h2 {
+    font-family: "Shantell Sans", "IM Fell French Canon SC";
+}
+
+.ski {
+    display: grid;
+    grid-template-columns: repeat(1fr, 5);
+    grid-template-rows: repeat(1fr, 5);
+    margin-left: 50px;
+}
+
+.list-ski {
+    grid-column: 1/3;
+    grid-row: 1/5;
+}
+
+.ski-img {
+    width: 500px;
+    height: 500px;
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+
+.snowboarding{
+    display: grid;
+    grid-template-columns: repeat(1fr, 5);
+    grid-template-rows: repeat(1fr, 5);
+    margin-top: 50px;
+}
+
+.list-snowboarding {
+    grid-column: 4/6;
+    grid-row: 1/5;
+}
+
+.snowboarding-img {
+    width: 500px;
+    height: 500px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.idaho-img, .utah-img {
+    width: 650px;
+    height: 100%;
+}
+
+.idaho {
+    display: grid;
+    grid-template-columns: repeat(1fr, 5);
+    grid-template-rows: repeat(1fr, 5);
+    margin-top: 50px;
+}
+
+.idaho-list {
+    grid-column: 1/2;
+    grid-row: 1/6;
+}
+
+.idaho-img {
+    grid-column: 3/6;
+    grid-row: 2/6;
+}
+
+.utah {
+    display: grid;
+    grid-template-columns: repeat(1fr, 5);
+    grid-template-rows: repeat(1fr, 6);
+}
+
+.utah-list {
+    grid-column: 1/2;
+    grid-row: 1/6;
+}
+
+.utah-img {
+    grid-column: 3/6;
+    grid-row: 1/6;
+}
+
+main p {
+    font-size: 18px;
+}
