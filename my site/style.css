@@ -47,7 +47,7 @@ nav a{
 .home-msg {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(1fr, 10);
+    grid-template-rows: repeat(10, 1fr);
     margin-top: -7px;
 }
 
@@ -122,8 +122,8 @@ main h2 {
 
 .snowboarding{
     display: grid;
-    grid-template-columns: repeat(1fr, 5);
-    grid-template-rows: repeat(1fr, 5);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
 .list-snowboarding {
@@ -181,4 +181,12 @@ main h2 {
 
 main p {
     font-size: 18px;
+}
+
+.snow {
+    margin: 25px;
+}
+
+.list-ski{
+    margin-left: 30px;
 }
