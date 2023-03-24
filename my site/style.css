@@ -181,7 +181,7 @@ main p {
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: block;
 }
 
 /* Next & previous buttons */
@@ -258,3 +258,4 @@ main p {
   from {opacity: .4}
   to {opacity: 1}
 }
+
