@@ -180,6 +180,9 @@ main p {
 }
 
 
+.mySlides {
+  display: none;
+}
 
 /* Next & previous buttons */
 .prev, .next {
