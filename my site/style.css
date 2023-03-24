@@ -36,32 +36,10 @@ nav a{
 }
 
 
-.home1-img {
-    width: 100%;
-}
-
 .home2-img {
     width: 100%
 }
 
-.home-msg {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(10, 1fr);
-    margin-top: -7px;
-}
-
-.home1-img {
-    grid-column: 1/2;
-    grid-row: 1/11;
-    z-index: -1;
-}
-
-.home-msg h1 {
-    grid-column: 1/2;
-    grid-row: 3/5;
-    color: #FFFFFF;
-}
 
 .home-msg2 {
     display: grid;
