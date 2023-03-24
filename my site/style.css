@@ -181,7 +181,7 @@ main p {
 
 /* Hide the images by default */
 .mySlides {
-  display: block;
+  display: none;
 }
 
 /* Next & previous buttons */
