@@ -259,3 +259,89 @@ main p {
   to {opacity: 1}
 }
 
+@media screen and (max-width: 900px){
+    nav {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .text {
+        color: #f2f2f2;
+        font-family: "Shantell Sans", "IM Fell French Canon SC";
+        font-size: 20px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 25px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .msg {
+        background-color: #0affeb;
+        grid-column: 1/11;
+        grid-row: 2/6;
+    }
+
+    .home2-img {
+        grid-column: 1/11;
+        grid-row: 6/11;
+        z-index: -1;
+    }
+
+    .msg h4 {
+        font-size: 20px;
+    }
+
+    .social {
+        display: contents;
+    }
+
+    footer {
+        font-size: 7px;
+    }
+
+    .idaho-img {
+        grid-column: 1/6;
+        grid-row: 4/6;
+    }
+
+    .idaho-list {
+        grid-column: 1/6;
+        grid-row: 1/4;
+    }
+
+    .idaho-img, .utah-img {
+        width: 375px;
+        height: 667px;
+    }
+
+    .list-ski {
+        grid-column: 1/6;
+        grid-row: 1/3;
+    }
+
+    .ski-img {
+        width: 100%;
+        height: 100%;
+        grid-column: 1/6;
+        grid-row: 3/5;
+    }
+
+    .list-snowboarding {
+        grid-column: 1/6;
+        grid-row: 1/3;
+    }
+
+    .snowboarding-img {
+        width: 100%;
+        height: 100%;
+        grid-column: 1/6;
+        grid-row: 3/5;
+    }
+}
