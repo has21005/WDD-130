@@ -82,7 +82,7 @@ main h2 {
 
 .ski {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     grid-template-rows: repeat(5, 1fr);
   
 }
@@ -166,9 +166,7 @@ main p {
     margin: 25px;
 }
 
-.list-ski{
-    margin-left: 30px;
-}
+
 
 
 * {box-sizing:border-box}
@@ -300,11 +298,22 @@ main p {
     }
 
     .social {
-        display: contents;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: flex-start;
+        flex-wrap: nowrap;
     }
 
     footer {
-        font-size: 7px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        background-color: #0affeb;
+        align-content: stretch;
+        flex-direction: column;
     }
 
     .idaho-img {
@@ -323,14 +332,14 @@ main p {
     }
 
     .list-ski {
-        grid-column: 1/11;
+        grid-column: 1/12;
         grid-row: 1/3;
     }
 
     .ski-img {
         width: 100%;
         height: 100%;
-        grid-column: 1/11;
+        grid-column: 1/12;
         grid-row: 3/5;
     }
 
